@@ -1,0 +1,30 @@
+{
+  "name": "pingway",
+  "version": "0.1.1",
+  "bin": {
+    "pingway": "bin/pingway.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.5.0",
+    "@types/node": "10.17.27",
+    "@types/prettier": "2.6.0",
+    "esbuild": "^0.14.43",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4",
+    "ts-node": "^10.7.0",
+    "tsconfig-paths": "^4.0.0",
+    "typescript": "~3.9.7"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-amplify-alpha": "^2.38.1-alpha.0",
+    "@edgaraskazlauskas/pingway-backend": "0.4.10",
+    "aws-cdk-lib": "^2.38.1",
+    "source-map-support": "^0.5.21"
+  }
+}
